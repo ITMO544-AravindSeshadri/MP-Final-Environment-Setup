@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt-get update && sudo apt-get install -y apache2 git php5 php5-mysql php5-curl mysql-client curl
+sudo apt-get update && sudo apt-get install -y apache2 git php5 php5-imagick php5-mysql php5-curl mysql-client curl
 touch /tmp/hello.txt
 echo "Hello" > /tmp/hello.txt
 cd /var/www/html
